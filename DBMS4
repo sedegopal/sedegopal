@@ -5,7 +5,6 @@ FROM STUDENT S, SEMSEC SS, CLASS
 C WHERE S.USN = C.USN AND
 SS.SSID = C.SSID 
 AND SS.SEM = 4 AND
-DBMS Lab Manual
 SS.SEc=’C’;
 
 2. Compute the total number of male and female students in each semester and in each 
